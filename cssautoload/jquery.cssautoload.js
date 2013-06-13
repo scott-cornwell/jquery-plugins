@@ -71,12 +71,7 @@
 		bLoading = false;
 		loadNext(ref);		
 	}
-	
-	
-	function loadComplete() {
-		console.log("loadComplete()");
-	}
-	
+
 	function addToQueue(path, ref) {
 		if (!isLoaded(path.src)) {
 			loadQueue.push(path);
