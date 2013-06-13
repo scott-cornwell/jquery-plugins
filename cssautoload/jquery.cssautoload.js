@@ -131,7 +131,7 @@
 		
 		
 		if (typeof target !== 'undefined') {
-			var tagNames = ["background-image", "cursor", "content", "src"];
+			var tagNames = ["background-image", "border-image", "cursor", "content", "src"];
 			var targetObj = $(target);
 			for (var i=0; i < tagNames.length; i++) {
 				var tagName = tagNames[i];
