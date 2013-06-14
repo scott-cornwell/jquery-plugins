@@ -193,7 +193,7 @@
 	}
 	
 	function loadSheet(sheet, filters, ref) {
-		var rules = sheet.rules;
+		var rules = sheet.rules || sheet.cssRules;
 		for (var j=0; j < rules.length; j++) {
 			var rule = rules[j];
 			if (rule.href != null) {
